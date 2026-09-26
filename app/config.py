@@ -18,8 +18,8 @@ HOST: str = os.getenv("HOST", "0.0.0.0")
 
 # ─── Team metadata ───────────────────────────────────────────────────────────
 TEAM_NAME: str         = os.getenv("TEAM_NAME", "Vera-Hybrid")
-TEAM_MEMBERS: list[str] = os.getenv("TEAM_MEMBERS", "Team Member").split(",")
-CONTACT_EMAIL: str     = os.getenv("CONTACT_EMAIL", "team@example.com")
+TEAM_MEMBERS = os.getenv("TEAM_MEMBERS","Gauri Soni").split(",")
+CONTACT_EMAIL = os.getenv("CONTACT_EMAIL","gauri22102003@gmail.com")
 VERSION: str           = "1.0.0"
 SUBMITTED_AT: str      = "2026-09-27T00:00:00Z"
 
